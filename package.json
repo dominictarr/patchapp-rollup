@@ -1,0 +1,26 @@
+{
+  "name": "patchapp-rollup",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/patchapp-rollup",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/patchapp-rollup.git"
+  },
+  "dependencies": {
+    "hyperloadmore": "^1.1.0",
+    "hyperscript": "^2.0.2",
+    "markdown-summary": "^1.0.3",
+    "obv": "0.0.1",
+    "pull-more": "^1.0.0",
+    "pull-stream": "^3.6.1",
+    "ssb-markdown": "^3.3.1",
+    "ssb-thread": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
